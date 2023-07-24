@@ -21,6 +21,7 @@ body {
   font-size: 20px;
   font-weight: 700;
   padding: 19px 36px;
+  text-align: center;
 }
 
 /* Nav releted styles */
@@ -100,7 +101,7 @@ nav li button a {
 }
 
 /* Main sections styles  */
-main {
+main, footer{
   max-width: 1140px;
   max-height: 550px;
   margin: 131px auto 131px auto;
@@ -161,10 +162,10 @@ main {
 
 .skills-container {
   display: flex;
+  gap: 24px;
 }
 
 .skill {
-    margin: 12px;
   padding: 30px;
   border-radius: 5px;
   background: #fff;
@@ -189,4 +190,59 @@ main {
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
+}
+
+/* Resume Section  */
+.resume {
+}
+
+.resume-columns {
+  display: flex;
+  gap: 24px;
+}
+
+.resume-column {
+  padding-top: 100px;
+}
+
+.column-title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.resume-title {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  padding-top: 30px;
+}
+
+.resume-institute {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+
+.resume-des {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  padding-top: 20px;
+  padding-right: 71px;
+}
+.resume hr{
+    margin: 30px 0px 0px 0px;
+}
+
+.download-cv{
+    text-align: center;
+    padding: 50px;
+}
+
+.btn-primary a{
+    text-decoration: none;
+    color: #fff;
 }
