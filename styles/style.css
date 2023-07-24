@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 /* common shared styles  */
 body {
   font-family: "Lato", sans-serif;
@@ -59,6 +63,7 @@ nav li button a {
   background-image: url("/images/developer.png");
   background-repeat: no-repeat;
   background-position: 15px;
+  padding-top: 30px;
 }
 
 .hero {
@@ -98,7 +103,7 @@ nav li button a {
 main {
   max-width: 1140px;
   max-height: 550px;
-  margin: 90px auto;
+  margin: 131px auto 131px auto;
 }
 /* About Section  */
 .about {
@@ -108,24 +113,26 @@ main {
   padding: 131px 157px;
 }
 
-.about h3 {
+.section-title {
   color: #181818;
   text-align: center;
   font-size: 35px;
   font-weight: 700;
 }
 
-.about-sec-des {
+.sec-description {
   color: #757575;
   text-align: center;
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
+  padding-top: 30px;
 }
 
 .about-info-container {
   display: flex;
   justify-content: space-around;
+  padding-top: 30px;
 }
 
 .about-info {
@@ -141,4 +148,45 @@ main {
 .info-des {
   color: #474747;
   font-weight: 700;
+}
+
+/* What I do section  */
+
+.what {
+  padding: 131px 0px;
+}
+#what-i-do-des {
+  padding: 30px 116px;
+}
+
+.skills-container {
+  display: flex;
+}
+
+.skill {
+    margin: 12px;
+  padding: 30px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill img {
+  width: 44px;
+  height: 44px;
+}
+
+.skill-title {
+  padding-top: 30px;
+  color: #181818;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.skill-description {
+  padding-top: 20px;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
 }
